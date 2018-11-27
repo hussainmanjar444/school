@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+</IfModule>
+ 
+<IfModule mod_rewrite.c>
+    RewriteCond %{REQUEST_URI} ^/.*
+    RewriteRule ^(.*)$ web/$1 [L]
+
+    RewriteCond %{REQUEST_URI} ^/(assets|css|js|img|uploads)
+	RewriteRule ^assets/(.*)$ /web/assets/$1 [L]
+	RewriteRule ^css/(.*)$ /web/css/$1 [L]
+	RewriteRule ^js/(.*)$ /web/js/$1 [L]
+    RewriteRule ^img/(.*)$ /web/img/$1 [L]
+    RewriteRule ^uploads/(.*)$ /web/uplods/$1 [L]
+    RewriteRule ^frontAssets/(.*)$ /web/frontAssets/$1 [L]
+
+    RewriteCond %{REQUEST_URI} !^/web/(assets|css|js|img|uploads)/
+    RewriteCond %{REQUEST_URI} !index.php
+    RewriteCond %{REQUEST_FILENAME} !-f [OR]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^.*$ web/index.php
+
+    php_value upload_max_filesize 10M 
+    php_value post_max_size 20M 
+    php_value memory_limit 128M
+</IfModule>

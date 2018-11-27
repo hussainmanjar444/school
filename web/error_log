@@ -1,0 +1,23 @@
+[11-Aug-2018 16:26:09 Etc/GMT] PHP Warning:  Uncaught yii\base\ErrorException: require(/home/cccomnp/public_html/schoolkit/modules/librarian/views/inventory-issue/_columns.php?id=1): failed to open stream: No such file or directory in /home/cccomnp/public_html/schoolkit/modules/librarian/views/inventory-issue/index.php:26
+Stack trace:
+#0 /home/cccomnp/public_html/schoolkit/modules/librarian/views/inventory-issue/index.php(26): yii\base\ErrorHandler->handleError(2, 'require(/home/c...', '/home/cccomnp/p...', 26, Array)
+#1 /home/cccomnp/public_html/schoolkit/modules/librarian/views/inventory-issue/index.php(26): require()
+#2 /home/cccomnp/public_html/schoolkit/vendor/yiisoft/yii2/base/View.php(336): require('/home/cccomnp/p...')
+#3 /home/cccomnp/public_html/schoolkit/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/cccomnp/p...', Array)
+#4 /home/cccomnp/public_html/schoolkit/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/cccomnp/p...', Array, Object(app\modules\librarian\controllers\LibraryInoutControll in /home/cccomnp/public_html/schoolkit/modules/librarian/views/inventory-issue/index.php on line 26
+[11-Aug-2018 16:26:09 Etc/GMT] PHP Fatal error:  yii\base\View::main(): Failed opening required '/home/cccomnp/public_html/schoolkit/modules/librarian/views/inventory-issue/_columns.php?id=1' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/cccomnp/public_html/schoolkit/modules/librarian/views/inventory-issue/index.php on line 26
+[15-Aug-2018 15:46:10 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:46:25 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:46:47 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:46:51 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:46:55 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:47:00 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:47:04 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:47:08 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:47:11 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:47:25 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:47:30 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:51:50 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:51:50 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:51:53 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
+[15-Aug-2018 15:52:07 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/cccomnp/public_html/schoolkit/models/Student.php on line 93
